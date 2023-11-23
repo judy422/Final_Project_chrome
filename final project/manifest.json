@@ -1,1 +1,18 @@
+jsonCopy code
+{
+  "manifest_version": 2,
+  "name": "我的擴充套件",
+  "version": "1.0",
+  "description": "這是一個示範擴充套件",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": ["storage"]
+}
+
 
