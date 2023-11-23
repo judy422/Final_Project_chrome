@@ -1,9 +1,9 @@
 
 {
   "manifest_version": 2,
-  "name": "我的擴充套件",
+  "name": "實習小幫手",
   "version": "1.0",
-  "description": "這是一個示範擴充套件",
+  "description": "這是一個記錄實習資訊的書籤套件",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -12,7 +12,10 @@
       "128": "images/icon128.png"
     }
   },
-  "permissions": ["storage"]
+  "permissions": ["storage","activeTab"]
+  "web_accessible_resources": [
+    "final project/**"  
+  ]
 }
 
 
