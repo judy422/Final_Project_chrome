@@ -1,0 +1,9 @@
+{
+  "name": "com.example.my_extension_python",
+  "description": "My Extension Python Native Messaging Host",
+  "path": "/Users/angela/Downloads/python2023_finalproject-main 6/my_extension/python/start_crawling.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://nphokpdolmmipbcendclihhaonnmkhmi/"
+  ]
+}

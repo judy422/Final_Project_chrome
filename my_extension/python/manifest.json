@@ -1,0 +1,6 @@
+{
+  "manifest_version": 3,
+  "name": "com.example.my_extension_python",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab", "nativeMessaging"]
+}
